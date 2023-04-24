@@ -1,0 +1,8 @@
+plugins: 
+  - name: plugin-example
+    type: middleware
+    path: myplugin.so
+    summary: Description of what my plugin is doing
+    config:
+      Headers:
+        Foo: Bar
